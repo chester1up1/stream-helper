@@ -1,0 +1,23 @@
+.r-block {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff18;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  & > div {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    user-select: none;
+  }
+  :hover {
+    border: 3px solid #fd7a00;
+  }
+}

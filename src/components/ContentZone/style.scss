@@ -1,0 +1,24 @@
+.content-zone {
+  background-color: #222222;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  .v-l {
+    width: 1px;
+    position: absolute;
+    background-color: red;
+    height: 100vh;
+    top: 0;
+    left: 50%;
+    transform: translateX(50%);
+  }
+  .h-l {
+    height: 1px;
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 50%;
+    left: 0;
+    transform: translateY(50%);
+  }
+}
